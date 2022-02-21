@@ -1,21 +1,3 @@
-#### ByBlock Asset Manager
-
-1. Create a new project.
-2. [Copy these files into the new project](#installation)
-6. Delete these instructions and everything up to the _Project Title_ from the README.
-7. Write some great software and tell people about it.
-
-> Keep the README fresh! It's the first thing people see and will make the initial impression.
-
-## Installation
-
-To install all of the template files, run the following script from the root of your project's directory:
-
-
-bash -c "$(curl -s https://raw.githubusercontent.com/CFPB/development/main/open-source-template.sh)"
-
-----
-
 # ByBlock Asset Manager
 
 Accounting tool for your crypto assets. Track your balances and transactions across wallets and blockchains in a single dashboard.
@@ -38,6 +20,7 @@ Requires NodeJS and VueJS framework to be installed.
 ## Installation
 To run the web application, run the following commands. For full experience, run the [ByBlock Asset Manager Webserver](byblock.finance) first.
 > npm run install
+
 > npm run serve
 
 ## Configuration

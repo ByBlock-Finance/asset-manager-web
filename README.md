@@ -18,7 +18,7 @@ On-chain data is accessed using Moralis and Covelenthq services.
 Requires NodeJS and VueJS framework to be installed.
 
 ## Installation
-To run the web application, run the following commands. For full experience, run the [ByBlock Asset Manager Webserver](byblock.finance) first.
+To run the web application, run the following commands. For full experience, run the [ByBlock Asset Manager Webserver](https://github.com/ByBlock-Finance/asset-manager-api) first.
 > npm run install
 
 > npm run serve

@@ -1,0 +1,48 @@
+.clickable {
+    cursor: pointer;
+}
+
+.vl {
+    border-left: 1px solid grey;
+    height: 100%;
+}
+
+.view-body-container {
+    display: flex;
+}
+
+.bb-link{
+    color: #24659B; 
+    font-weight: bold
+}
+
+.byb-flex-end{
+    display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.byb-flex-space-between {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50pt;
+}
+
+.byb-empty-state{
+    text-align: center;
+    
+}
+
+.bottom-message {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+
+  .top-message{
+    position: fixed;
+    top: 10pt;
+    left: 200pt;
+    max-width: 300pt;
+  }

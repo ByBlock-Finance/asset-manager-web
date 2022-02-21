@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'ETS_Icons';
+    src:  url('~@/assets/icons/grid/ETS_Icons.eot?3hojrg');
+    src:  url('~@/assets/icons/grid/ETS_Icons.eot?3hojrg#iefix') format('embedded-opentype'),
+          url('~@/assets/icons/grid/ETS_Icons.ttf?3hojrg') format('truetype'),
+          url('~@/assets/icons/grid/ETS_Icons.woff?3hojrg') format('woff'),
+          url('~@/assets/icons/grid/ETS_Icons.svg?3hojrg#ETS_Icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.icon {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'ETS_Icons' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #737372;
+}
+
+.icon-small:before {
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.icon-medium:before {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.icon-large:before {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.icon-x-large:before {
+    font-size: 32px;
+    line-height: 32px;
+}
+
+// here goes the list of all the icons
+
+.icon-information:before {
+    content: "\e914";
+}
+
+.icon-info:before {
+    content: "\e905";
+    color: #4d91d1;
+    // background-image: url('~@/assets/icons/icon_info.svg');
+}
+
+.icon-warning:before {
+    content: "\e907";
+    color: #b89f00;
+}
+
+.icon-error:before {
+    content: "\e906";
+    color: #f2020a;
+}
+
+.icon-success:before {
+    content: "\e91a";
+    color: rgb(34, 211, 169);
+}
+
+.icon-plus:before {
+    content: "";
+    color: #737372;
+    // background: url('~@/assets/icons/singular/plus_sign.svg') no-repeat center center;
+}
+
+.icon-minus:before {
+    content: "";
+    color: #737372;
+    // background: url('~@/assets/icons/singular/minus_sign.svg') no-repeat center center;
+}
+
+.icon-chevron-left:before {
+    content: "\e910";
+}
+
+.icon-kebab:before {
+    content: "\e90c";
+}
+
+.icon-pencil:before {
+    content: "\e90e";
+}
+
+.icon-bin:before {
+    content: "\e90d";
+}
+
+.icon-download:before {
+    content: "\e90f";
+}

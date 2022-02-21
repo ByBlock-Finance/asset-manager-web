@@ -2,8 +2,6 @@
 
 1. Create a new project.
 2. [Copy these files into the new project](#installation)
-3. Update the README, replacing the contents below as prescribed.
-5. If working with an existing code base, answer the questions on the [open source checklist](opensource-checklist.md)
 6. Delete these instructions and everything up to the _Project Title_ from the README.
 7. Write some great software and tell people about it.
 
@@ -12,6 +10,7 @@
 ## Installation
 
 To install all of the template files, run the following script from the root of your project's directory:
+
 
 bash -c "$(curl -s https://raw.githubusercontent.com/CFPB/development/main/open-source-template.sh)"
 
@@ -37,7 +36,9 @@ On-chain data is accessed using Moralis and Covelenthq services.
 Requires NodeJS and VueJS framework to be installed.
 
 ## Installation
-Pull code and run "npm run install" after which run "npm run serve"
+To run the web application, run the following commands. For full experience, run the [ByBlock Asset Manager Webserver](byblock.finance) first.
+> npm run install
+> npm run serve
 
 ## Configuration
 Configure your API keys in the .env variable.

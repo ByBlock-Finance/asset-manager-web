@@ -12,6 +12,8 @@ Currently support Metamask
 See your transactions per asset.
 ![](https://drive.google.com/file/d/1JnwChDk4hAMumA9NZ4Zb5DqVFQGwfxOq)
 
+## Alpha release
+Feel free to play around with our alpha build over at [assets.byblock.finance](https://assets.byblock.finance)
 
 ## Dependencies
 On-chain data is accessed using Moralis and Covelenthq services.
